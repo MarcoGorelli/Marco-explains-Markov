@@ -10,6 +10,7 @@ A Markov Random Field is an undirected graph in which the nodes correspond to va
 ## How will we setup the problem?
 We will be dealing with an observed image, _y_ (which won't change during the course of the problem),
 and our own reconstruction of it, _x_ (which will get updated at each step of the algorithm). The nodes will be the two images' pixels, and each node in _x_ will be connected to its adjacent nodes (as we expect neighbouring nodes to be somewhat correlated) as well as to the corresponding node from _y_ (as we want the reconstruction to be faithful to the original) - see the image below from Bishop's book:
+
 ![](images/MRF_for_denoising.png)
 .
 
@@ -28,8 +29,11 @@ This can be repeated until convergence.
 
 ## What are the results?
 Here is the noisy image I started with:
+
 ![](images/observed.png)
+
 and here's the reconstructed version:
+
 ![](images/reconstructed.png)
 
 I think it does a reasonable job of cleaning up the image, especially given how simple the algorithm is!
