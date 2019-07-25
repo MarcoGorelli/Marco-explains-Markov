@@ -1,0 +1,20 @@
+name: marco-presents-markov
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab=1.0.2=py37_0
+  - nb_black=1.0.5=py_0
+  - numpy=1.16.4=py37h7e9f1db_0
+  - pandas=0.24.2=py37he6710b0_0
+  - python=3.7.3=h33d41f4_1
+  - pytorch-cpu=1.1.0=py3.7_cpu_0
+  - torchvision-cpu=0.3.0=py37_cuNone_1
+  - tqdm=4.32.2=py_0
+  - pip:
+    - cufflinks==0.16
+    - ipywidgets==7.5.0
+    - plotly==3.10.0
+    - widgetsnbextension==3.5.0
+
