@@ -1,7 +1,7 @@
 # Marco-explains-Markov
 ## How can Markov Random Fields help denoise a binary image?
 
-Here's my implementation of an example from Christopher Bishop's excellent and widely read book _Pattern Recognition and Machine Learning_ (https://www.microsoft.com/en-us/research/people/cmbishop/#!prml-book). The example comes from Chapter 8.3.3 and shows how a Markov Random
+Here's my implementation of an example from Christopher Bishop's excellent and widely read book [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/#!prml-book). The example comes from Chapter 8.3.3 and shows how a Markov Random
 Field can help denoise a binary (i.e. where the pixels are either black or white) image. Black pixels have a value of -1, white ones a value of 1. The book shows an example of what can be described and describes the method, though no code is provided, so here's my attempt to do just that.
 
 ## What's a Markov Random Field?
